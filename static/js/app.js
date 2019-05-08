@@ -19,7 +19,7 @@ submit.on("click", function() {
     // Reset the webpage afer each click
     tbody.html("")
 
-    // dict for filter parameters
+    // Assing an empty dict for filter parameters
     var inptFilter = {}
     
     if (inptValDate !== ""){
